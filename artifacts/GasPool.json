@@ -1,0 +1,56 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204306c0c327b510c505ad3ce2834ffd93842607d6791f6e29b23cff20350dd66264736f6c634300060b0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 NUMBER MOD 0xC0 0xC3 0x27 0xB5 LT 0xC5 SDIV 0xAD EXTCODECOPY 0xE2 DUP4 0x4F REVERT SWAP4 DUP5 0x26 SMOD 0xD6 PUSH26 0x1F6E29B23CFF20350DD66264736F6C634300060B003300000000 ",
+			"sourceMap": "598:115:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212204306c0c327b510c505ad3ce2834ffd93842607d6791f6e29b23cff20350dd66264736f6c634300060b0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 NUMBER MOD 0xC0 0xC3 0x27 0xB5 LT 0xC5 SDIV 0xAD EXTCODECOPY 0xE2 DUP4 0x4F REVERT SWAP4 DUP5 0x26 SMOD 0xD6 PUSH26 0x1F6E29B23CFF20350DD66264736F6C634300060B003300000000 ",
+			"sourceMap": "598:115:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
